@@ -5,7 +5,7 @@
 	"description": "Traduce los mensajes que recibes y los que envias.",
 	"author": "zVladyt (https://github.com/zVladyt \"GitHub\")",
 	"contributors": ["Claude, AI assistant by Anthropic (https://www.anthropic.com \"Anthropic\")"],
-	"version": "0.7.1",
+	"version": "0.7.2",
 	"dependencies": {
 		"valenced.api": { "version": ">=1 <2" },
 		"discord": { "version": ">=352.2" }
