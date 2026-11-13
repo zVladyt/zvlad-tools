@@ -1,0 +1,14 @@
+{
+	"format": 1,
+	"id": "zvladyt.tools.translator",
+	"name": "Traductor",
+	"description": "Traduce los mensajes que recibes y los que envias.",
+	"author": "zVladyt (https://github.com/zVladyt \"GitHub\")",
+	"contributors": ["Claude, AI assistant by Anthropic (https://www.anthropic.com \"Anthropic\")"],
+	"version": "0.7.1",
+	"dependencies": {
+		"valenced.api": { "version": ">=1 <2" },
+		"discord": { "version": ">=352.2" }
+	},
+	"dist": { "script": "index.js" }
+}
