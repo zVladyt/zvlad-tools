@@ -1,0 +1,33 @@
+{
+  "format": 1,
+  "name": "zVlad's Tools",
+  "description": "Plugins for Valenced by zVladyt, written with Claude. Translator: translate received and sent messages.",
+  "plugins": {
+    "zvladyt.tools.translator": {
+      "name": "Traductor",
+      "description": "Traduce los mensajes que recibes y los que envias.",
+      "author": "zVladyt (https://github.com/zVladyt \"GitHub\")",
+      "contributors": [
+        "Claude, AI assistant by Anthropic (https://www.anthropic.com \"Anthropic\")"
+      ],
+      "channels": {
+        "latest": "0.7.1"
+      },
+      "versions": {
+        "0.7.1": {
+          "url": "https://zvladyt.github.io/zvlad-tools/pool/zvladyt.tools.translator@0.7.1.zip",
+          "sha256": "e875227e77995ede83f2097c680844d8f752156d4cb7088eafeddf669cf30d07",
+          "size": 19705,
+          "dependencies": {
+            "valenced.api": {
+              "version": ">=1 <2"
+            },
+            "discord": {
+              "version": ">=352.2"
+            }
+          }
+        }
+      }
+    }
+  }
+}
